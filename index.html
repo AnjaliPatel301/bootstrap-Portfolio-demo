@@ -1,1 +1,472 @@
-! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+<body>
+  <div id="loader" style="position: fixed; background: #fff; width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center; z-index: 9999;">
+  <h2 class="animate__animated animate__bounceIn" style="color: #ffc107;"><br>
+  <img width="200px" src="https://img.pikbest.com/png-images/20190918/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt=""></h2>
+</div>
+
+    <section id="nav">
+    <div class="container ">
+
+        <div class="row">
+        <div class="col-md-12  rounded mx-auto position-fixed pt-1 ">
+            <nav class="navbar navbar-expand-lg bg-light shadow  mb-5 bg-body-tertiary 
+            rounded  fixed-top">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand fs-4 " href="#">ANOOP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active"   href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="#Portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="#contact">Contact</a>
+        </li>
+                             
+       
+      </ul>
+         <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+        <a href="#" class="btn btn-outline-warning btn-lg mx-1 rounded-circle" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" class="btn btn-outline-warning btn-lg mx-1 rounded-circle" title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" class="btn btn-outline-warning btn-lg mx-1 rounded-circle" title="Twitter">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="mailto:anooppatel553@gmail.com" class="btn btn-outline-warning btn-lg mx-1 rounded-circle" title="Email">
+       <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="Home" style="margin-top: 100px;" >
+       <div class="container">
+         <div class="row mt-4 p-5">
+           <div class="col-md-6 p-5">
+            <i class="fs-3 fw-bold">
+                	
+                Anoop Singh patel
+            </i>
+            <h2 class="fs-3 mt-4">
+              
+          <h1>
+            I'm <span id="element" style="color:rgb(58, 58, 55)"></span>
+
+            </h1>
+            </h2>
+            <!-- <p class="fs-6 mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, mollitia!</p>
+            -->
+           <div class="cta-buttons aos-init aos-animate mt-5" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="badge rounded-pill text-bg-warning p-3 text-decoration-none">View My Work</a>
+              <a href="#contact" class="badge rounded-pill text-bg-light p-3 text-decoration-none">Let's Connect</a>
+            </div>
+            <div class="row mt-5 ">
+                <div class="col-md-4  text-center">
+                    <h1 class="fw-bold " id="count1" >0+</h1>
+                    <p>Years Experience.</p>
+                </div>
+                <div class="col-md-4  text-center">
+                      <h1 class="fw-bold " id="count2" >0+</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-md-4  text-center">
+                      <h1 class="fw-bold  " id="count3" >0+
+                      </h1>
+                    <p>Happy Clients</p>
+                </div>
+
+            </div>
+            </div>
+         
+            <div class="col-lg-6 ">
+            <div class="hero-image  ">
+             <div class="ms-3">
+               <img width="350px"  src="WhatsAp.jpg" class="img-fluid aos-init aos-animate rounded-circle " data-aos="zoom-out" data-aos-delay="300">
+            
+             </div>
+            </div>
+           </div>
+
+        </div>
+       </div>
+    </section>
+
+
+    <section id="about"  onmouseover="typeWriter()">
+      <div class="container mb-5">
+    
+        <div class="row mt-5">
+          <div class="col-md-6 ">
+            <div>
+              <img width="350px" src="WhatsAp.jpg" class="img-fluid aos-init aos- " data-aos="zoom-out" data-aos-delay="300">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h5 class="">About Me </h5>
+            <h1 class="mt-4">I'am Backend Developer!
+            </h1>
+           <p class="typing my-5"  id="demo"  ></p>
+
+               <div class="row mt-4 bg-light border-start border-warning py-3">
+                <div class="col-md-6 ">
+                  <h6>Name</h6>
+                  <p>Anooh Singh patel</p>
+                  <h6>Age</h6>
+                  <p>25+</p>
+                  <h6>Occuhpation</h6>
+                  <p>Lorem software</p>
+                </div>
+                <div class="col-md-6">
+                  <h6>Phone</h6>
+                  <p>+9127356131</p>
+                  <h6>Email</h6>
+                  <p>anoohpatel@gamil.com</p>
+                  <h6>Nationality</h6>
+                  <p>Lorem software</p>
+
+                </div>
+
+               </div>
+               
+               </div>
+          </div>
+
+        </div>
+        <div class="row">
+        
+            <!-- <div class="col-md-3">
+              <h5>Javascript</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>50%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+              <h5>Javascript</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>50%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+              <h5>Javascript</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>50%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+              <h5>Javascript</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>50%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+               </div>
+            </div>
+             -->
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    
+<section id="resume" class="resume section py-5 ">
+  <div class="row">
+    <div class="col-md-12 text-center">
+     <h1 class=" text-uppercase ">Resume </h1>
+    </div>
+  </div>
+ <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-10 resume-section">
+
+        <div class="text-center mb-4">
+          <h1 class="fw-bold text-uppercase">Anoop Singh Patel</h1>
+          <p class="mb-0"><strong>Mobile:</strong> +91-9131723828</p>
+          <p><strong>Email:</strong> anooppatel553@gmail.com</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="section-heading">Career Objective</h2>
+            <p>To acquire a challenging career with a company utilizing the opportunity to offer proven and developing skills within the company.</p>
+
+            <h2 class="section-heading">Professional Snapshot</h2>
+            <ul>
+              <li>1+ Years of Experience in Java Development.</li>
+              <li>Java 8, Spring Boot, Hibernate/JPA</li>
+              <li>HTML, CSS, JSP, Servlets</li>
+              <li>Client Communication Experience</li>
+            </ul>
+
+            <h2 class="section-heading">Academic</h2>
+            <ul>
+              <li><strong>MCA:</strong> 2022-24, Sage University, Indore</li>
+              <li><strong>B.Sc:</strong> 2021, Shri Lokmani Sharma Mahavidyalaya, Mathura</li>
+              <li><strong>12th:</strong> 2017, Govt. Excellence H.S. School, Satna</li>
+            </ul>
+
+            <h2 class="section-heading">Skills & Tools</h2>
+            <ul>
+              <li>Java, Spring Boot, Hibernate, JDBC</li>
+              <li>MySQL, Git, Swagger, Postman, Maven</li>
+              <li>IntelliJ IDEA, Windows 11</li>
+            </ul>
+
+            <h2 class="section-heading">Personal Details</h2>
+            <ul>
+              <li><strong>DOB:</strong> 15-07-2001</li>
+              <li><strong>Gender:</strong> Male</li>
+              <li><strong>Languages:</strong> English, Hindi</li>
+              <li><strong>Nationality:</strong> Indian</li>
+              <li><strong>Address:</strong> Village Kanchanpur, Amarpatan, Satna</li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="section-heading">Professional Experience</h2>
+            <p><strong>Techtoil Infosol Pvt. Ltd., Delhi</strong><br />Software Developer | Jul 2024 - Present</p>
+
+            <h2 class="section-heading">Projects</h2>
+            <p class="highlight">PromoteOn</p>
+            <ul>
+              <li>User Auth & Subscription Module (Spring Boot, MySQL)</li>
+              <li>JWT, Role-Based Access</li>
+              <li>Swagger, SonarQube, JUnit Integration</li>
+            </ul>
+            <p><strong>Tech:</strong> Java, Spring Boot, MySQL, React</p>
+
+            <p class="highlight">Healthcare System</p>
+            <ul>
+              <li>Spring Boot Microservices: Auth, Appointments, Doctors</li>
+              <li>JWT + Spring Security, Global Exception Handling</li>
+              <li>Agile, Git, JUnit, Swagger, Postman</li>
+            </ul>
+            <p><strong>Tech:</strong> Java 17, Spring Security, MySQL, REST APIs</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <p><em>I hereby declare that all information is true to the best of my knowledge.</em></p>
+          <p class="fw-bold">Anoop Singh Patel</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    </section>
+
+ <section id="Portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title"> My Java Backend Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+        <div class="box-card border py-3 text-bg-light text-center">
+            <h3>📘 Test Series Platform</h3>
+      <p>A quiz web app built with Spring Boot & React.</p>
+      <span>Tech: Spring Boot, Hibernate, MySQL, React</span>
+      <a href="#" class="text-bg-warning">🔗 GitHub</a>
+  
+        </div>
+        </div>
+        <div class="col-md-4 ">
+              <div class="box-card border py-3  text-center text-bg-light">
+      <h3>🛒 E-Commerce Backend</h3>
+      <p>REST APIs with login/signup, JWT security.</p>
+      <span>Tech: Spring Boot, JWT, MySQL</span>
+      <a href="#" class="text-bg-warning">🔗 GitHub</a>
+    </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-card border py-3 text-center text-bg-light">
+      <h3>🏫 College CRUD System</h3>
+      <p>CRUD app to manage students and courses.</p>
+      <span>Tech: Spring Boot, Thymeleaf</span>
+      <a href="#" class="text-bg-warning">🔗 GitHub</a>
+    </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <section id="skills" class="py-5" style="background-color: #fffef5;">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold text-warning">Skills</h2>
+    
+    <div class="d-flex overflow-auto gap-4 p-3 border-start border-4 border-warning rounded">
+      
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" alt="Java">
+        <p class="mt-2 fw-semibold">Java</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" alt="Spring Boot">
+        <p class="mt-2 fw-semibold">Spring Boot</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" alt="MySQL">
+        <p class="mt-2 fw-semibold">MySQL</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" alt="Git">
+        <p class="mt-2 fw-semibold">Git/GitHub</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML">
+        <p class="mt-2 fw-semibold">HTML</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS">
+        <p class="mt-2 fw-semibold">CSS</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" width="50" alt="JUnit">
+        <p class="mt-2 fw-semibold">JUnit</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="50" alt="Postman">
+        <p class="mt-2 fw-semibold">Postman</p>
+      </div>
+
+      <div class="text-center flex-shrink-0" style="width: 120px;">
+        <img src="Swagger.png" width="40" alt="Swagger">
+        <p class="mt-2 fw-semibold">Swagger</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5" style="margin-top: 100px;">
+ <div class="container">
+   <div class="row ">
+   
+    <div class="col-md-6 map-container">
+      <div class="h-100 rounded overflow-hidden shadow-sm border border-warning">
+        <iframe 
+          class="w-100"
+          style="min-height: 300px; border: none;"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.664323142224!2d81.01783187527402!3d22.593734879468695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3985e1aa891420fd%3A0x7d2b4eb419f7f14b!2sAmarpatan%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1718457931715!5m2!1sen!2sin" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="col-md-6 contact-info bg-light rounded shadow-sm border-start border-4 border-warning p-4">
+      <h2 class="mb-4 text-dark fw-bold">Contact Me</h2>
+      <p><strong>Name:</strong> Anoop Singh Patel</p>
+      <p><strong>Mobile:</strong> +91-9131723828</p>
+      <p><strong>Email:</strong> anooppatel553@gmail.com</p>
+      <p><strong>Address:</strong> Village Kanchanpur, Amarpatan, District Satna, Madhya Pradesh</p>
+
+      <a href="mailto:anooppatel553@gmail.com" class="btn btn-warning mt-3">Send Email</a>
+      <a href="tel:+919131723828" class="btn btn-warning mt-3 ms-2">Call Now</a>
+    </div>
+
+  </div>
+ </div>
+</section>
+
+
+      
+<footer class="bg-dark text-light py-5 mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start align-items-center">
+
+      <div class="col-md-6 mb-4">
+        <h4 class="fw-bold text-warning">Anoop Singh Patel</h4>
+        <p class="small mb-1">Java Backend Developer</p>
+        <p class="small mb-1">Email: <a href="mailto:anooppatel553@gmail.com" class="text-warning text-decoration-none">anooppatel553@gmail.com</a></p>
+        <p class="small">Mobile: <a href="tel:+919131723828" class="text-warning text-decoration-none">+91-9131723828</a></p>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+        <a href="#" class="btn btn-outline-warning btn-lg mx-2 rounded-circle" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" class="btn btn-outline-warning btn-lg mx-2 rounded-circle" title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" class="btn btn-outline-warning btn-lg mx-2 rounded-circle" title="Twitter">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="mailto:anooppatel553@gmail.com" class="btn btn-outline-warning btn-lg mx-2 rounded-circle" title="Email">
+       <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+
+    </div>
+
+  
+    <hr class="border-warning mt-4">
+
+  
+    <div class="text-center small text-muted">
+      © 2025 <span class="text-warning">Anoop Singh Patel</span> | All rights reserved | Made with ❤️
+    </div>
+  </div>
+</footer>
+
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  
+
+    <script src="script.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+                  
